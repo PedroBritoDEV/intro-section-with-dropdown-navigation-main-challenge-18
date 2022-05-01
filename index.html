@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>intro section with dropdown navigation main</title>
+  <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+  <header>
+    <img class="logo" src="./images/logo.svg" alt="logo">
+    <nav class="nav-links">
+      <div class="features">
+        <div class="dropdown hidden">
+          <div class="todo-list">
+            <img src="./images/icon-todo.svg">
+            <p>Todo List</p>
+          </div><!--todo-list-->
+
+          <div class="calendar">
+            <img src="./images/icon-calendar.svg">
+            <p>Calendar</p>
+          </div><!--calendar-->
+
+          <div class="reminders">
+            <img src="./images/icon-reminders.svg">
+            <p>Reminders</p>
+          </div><!--reminders-->
+
+          <div class="planning">
+            <img src="./images/icon-planning.svg">
+            <p>Planning</p>
+          </div>
+        </div><!--dropdown-->
+        <div class="nav-flex">
+          <p>Features</p>
+          <img src="./images/icon-arrow-down.svg" alt="">
+        </div>
+      </div><!--features-->
+      <div class="company">
+        <div class="dropdown hidden">
+          <p>History</p>
+          <p>Our Team</p>
+          <p>Blog</p>
+        </div><!--dropdown-->
+        <div class="nav-flex">
+          <p>Company</p>
+          <img src="./images/icon-arrow-down.svg" alt="">
+        </div>
+      </div><!--company-->
+      <div class="carrers">
+        <p>Carrers</p>
+      </div>
+      <div class="about">
+        <p>About</p>
+      </div>
+    </nav>
+    <div class="buttons">
+      <button class="login">Login</button>
+      <button class="register">Register</button>
+    </div>
+    <img class="menu hidden" src="./images/icon-menu.svg" >
+  </header>
+  <main>
+    <div class="main-content">
+      <section class="first-section">
+        <h1>Make Remote Work</h1>
+        <p>Get your team in sync, no metter your location. Streaming processes, creat team rituals, and watch productive soar.</p>
+        <button class="learn-more">Learn more</button>
+        <aside>
+          <img src="./images/client-databiz.svg">
+          <img src="./images/client-audiophile.svg">
+          <img src="./images/client-meet.svg">
+          <img src="./images/client-maker.svg">
+        </aside>
+      </section>
+      <section class="second-section">
+        <picture>
+          <source media="(max-width: 1040px)" srcset="./images/image-hero-mobile.png">
+          <img src="./images/image-hero-desktop.png" alt="">
+        </picture>
+      </section>
+    </div>
+  </main>
+
+  <script src="javascript/scripts.js"></script>
+</body>
+</html>

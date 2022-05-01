@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Epilogue', sans-serif;
+}
+body {
+  padding: 0 10px 100px 10px;
+  background-color: #fafafa;
+}
+h1 {
+  font-size: 74px;
+  max-width: 510px;
+  margin: 100px 0 65px 0;
+}
+p {
+  color: hsl(0, 0%, 41%);
+  font-size: 18px;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 10% 75% 15%;
+  align-items: center;
+  max-width: 1370px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+header nav {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+header nav>div {
+  cursor: pointer;
+  padding: 30px 0;
+}
+header nav>div .nav-flex {
+  display: flex;
+  align-items: center;
+}
+header nav p {
+  transition: .2s;
+}
+header nav p:hover {
+  color: hsl(0, 0%, 8%);
+}
+
+header nav>div .nav-flex img {
+  margin-left: 5px;
+  transition: .3s;
+}
+header .buttons {
+  display: flex;
+  flex-wrap: nowrap;
+}
+header .buttons button {
+  width: 100px;
+  height: 40px;
+  border-radius: .9em;
+  background-color: transparent;
+  color: hsl(0, 0%, 41%);
+  cursor: pointer;
+}
+header .buttons .register {
+  border: 1px solid hsl(0, 0%, 41%);
+}
+main {
+  margin-top: 40px;
+}
+main .main-content {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns:58% 42%;
+}
+
+main .main-content .first-section {
+
+}
+main .main-content .first-section p {
+  max-width: 440px;
+  line-height: 30px;
+}
+main .main-content .first-section button {
+  width: 160px;
+  height: 50px;
+  color: white;
+  background-color: black;
+  border-radius: .9em;
+  font-size: 1.1em;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 50px 0 100px 0;
+}
+main .main-content .first-section aside {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 480px;
+}
+main .main-content .second-section picture {
+  max-width: 490px;
+}
+main .main-content .second-section picture img {
+  width: 100%;
+}
+
+
+.dropdown {
+  position: absolute;
+  top: 70px;
+  background-color: white;
+  padding: 25px;
+  padding-bottom: 5px;
+  border-radius: .5em;
+  box-shadow: 1px 1px 20px 2px #1414143b;
+  transition: .3s;
+  height: auto;
+  overflow: hidden;
+}
+.dropdown>div {
+  display: flex;
+  margin-bottom: 20px;
+}
+.dropdown>div img {
+  margin-right: 20px;
+}
+
+.features .dropdown {
+  left: 60px;
+}
+.company .dropdown {
+  left: 240px;
+}
+.company .dropdown p {
+  margin-bottom: 20px;
+}
+
+
+.mobile-hidden {
+  width: 0!important;
+  height: 0!important;
+  opacity: 0!important;
+  display: flex;
+}
+.hidden {
+  display: none;
+}
+.rotate-image {
+  transition: .3s;
+  transform: rotate(180deg);
+}
